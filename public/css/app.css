@@ -1,0 +1,31 @@
+/* Стили для выпадающего списка поиска */
+.search-dropdown {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    display: none;
+}
+.search-dropdown-item {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.search-dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+/* Стили для списка выбранных отцов */
+.fathers-list {
+    margin-top: 10px;
+}
+.father-badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.remove-father {
+    cursor: pointer;
+    margin-left: 5px;
+}
